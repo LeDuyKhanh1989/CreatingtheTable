@@ -1,0 +1,33 @@
+form{
+    border: 2px;
+    width: 800px;
+    height: 800px;
+    position: center;
+
+}
+.t_color{
+    background-color: cyan;
+
+}
+table{
+    text-align: left;
+    margin: 10px 10px 5px 200px;
+}
+H1{
+   text-align: center;
+   width: 800px;
+   height: 60px;
+   background-color: antiquewhite;
+   margin: 10px 10px 5px 200px;
+}
+#tb1{
+    width: 800px;
+    height: 60px;
+}
+#tb2{
+    width: 800px;
+    height: 60px;
+}
+.righthand{
+    text-align: right;
+}
