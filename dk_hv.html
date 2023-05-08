@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Link rel="stylesheet" href="dk_hv.css"></Link>
+        <meta charset="utf-8">
+        <Title>Tạo bảng</Title>
+    </head>
+    <body >
+        <form action="">
+
+            <H1> Form đăng ký học viên</H1><br>
+            <table>
+            <Thead>
+                <th><Label>Họ và tên:</Label></Th>
+                <th><input type="text" name="name" id="name"></th>
+            </Thead>
+            <Thead>
+                <th><label>Ngày sinh: </label></Th>
+                <th><input type="date" name="date" id="date"></th>
+            </Thead>
+            <thead>
+                <th><label>Giới tính: </label></th>
+                <th>
+                    <input type="radio" name="gender" value="Nam" id="gender"> <label for="gender"> Nam</label>
+                    <input type="radio" name="gender" value="Nữ" id="gender"><label for="gender">Nữ</label>
+                </th>
+            </thead>
+            <br>
+            <br>
+            <thead>
+                <th><label>Địa chỉ: </label></th>
+                <th><textarea name="address" id="address" cols="30" rows="3"></textarea></th>
+
+            </thead>
+            <thead>
+                <th><label>Lớp: </label></th>
+                <th>
+                    <select name="Lớp" id="Lớp" >
+                       <Option value="lớp 1">Lớp 1</Option>
+                       <option value="lớp 2">lớp 2</option>
+                       <option value="lớp 3">lớp 3</option>
+                       <option value="lớp 4">lớp 4</option>
+                       <option value="lớp 5">lớp 5</option>
+                    </select>
+               </th>
+            </thead>
+                    
+            <thead>
+                <th><label>Email: </label></th>
+                <th><input type="text" name="email" id="email"></th>
+
+            </thead>
+            
+            <thead>
+                <th><label>Số điện thoại: </label></th>
+                <th><input type="number" name="phone" id="phone"></th>
+            </thead>
+            </table>
+            <input type="submit" class="button1">
+            <input type="reset" class="button2">
+
+        </form>
+
+    </body>
+</html>

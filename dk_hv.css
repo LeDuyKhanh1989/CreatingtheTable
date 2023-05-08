@@ -1,0 +1,25 @@
+form{
+    width: 800px;height: 800px;
+    background-color: yellow;
+}
+h1{
+    color: Red;
+    background-color: rgb(101, 224, 249);
+    text-align: left;
+    margin: 20px 0px 0px 20px;
+}
+table{
+    align-items: left;
+    text-align: left;
+    margin: 0 0 0 100px;
+}
+.button1{
+    
+    text-align: center;
+    margin: 0 0 0 200px;
+}
+.button2{
+    
+    text-align: center;
+    margin: 0 0 0 100px;
+}
